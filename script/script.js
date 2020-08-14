@@ -1,10 +1,10 @@
 "use strict";
 
 function closure() {
+  alert("Угадайте число от 1 до 100");
   let randomNumber = Math.floor(Math.random() * 100) + 1;
 
   function getNumber() {
-    alert("Угадайте число от 1 до 100");
     let answer = prompt("Угадайте число от 1 до 100");
 
     if (answer === null) {
